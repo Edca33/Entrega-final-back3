@@ -35,21 +35,37 @@ Contenedorización: Docker
 📂 Estructura del Proyecto
 
 📦 adopcion-mascotas-backend
+
 ├── 📁 src
+
 │   ├── 📁 config          # Configuraciones y variables de entorno
+
 │   ├── 📁 controllers     # Controladores de la lógica de negocio
+
 │   ├── 📁 middlewares     # Middlewares para el manejo de peticiones
+
 │   ├── 📁 models          # Modelos de datos y esquemas de la base de datos
+
 │   ├── 📁 routes          # Definición de rutas de la API
+
 │   ├── 📁 services        # Servicios con la lógica de negocio
+
 │   ├── 📁 utils           # Funciones utilitarias y helpers
+
 │   └── app.js             # Punto de entrada de la aplicación
+
 ├── .dockerignore          # Archivos y carpetas ignorados por Docker
+
 ├── .env                   # Variables de entorno
+
 ├── .gitignore             # Archivos y carpetas ignorados por Git
+
 ├── Dockerfile             # Configuración de Docker
+
 ├── README.md              # Documentación del proyecto
+
 ├── package-lock.json      # Dependencias específicas del proyecto
+
 └── package.json           # Información y dependencias del proyecto
 
 🌟 Cómo Contribuir
