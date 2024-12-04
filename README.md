@@ -1,25 +1,39 @@
 🐾 Proyecto de Adopción de Mascotas
+
 Este repositorio contiene el backend de una plataforma destinada a facilitar la adopción responsable de mascotas, conectando refugios con posibles adoptantes.
 
 📖 Descripción
+
 El objetivo principal del proyecto es:
 
 Proporcionar una API que gestione la información de mascotas disponibles para adopción.
+
 Facilitar la conexión entre refugios y adoptantes mediante funcionalidades específicas.
+
 Promover la tenencia responsable de mascotas a través de recursos educativos.
+
 🚀 Funcionalidades
+
 Gestión de mascotas: CRUD (Crear, Leer, Actualizar, Eliminar) de información de mascotas disponibles para adopción.
+
 Gestión de usuarios: Administración de datos de usuarios interesados en adoptar.
+
 Solicitudes de adopción: Permite a los usuarios enviar y gestionar solicitudes para adoptar mascotas.
+
 Recursos educativos: Proporciona información y consejos sobre la adopción y cuidado responsable de mascotas.
+
 🛠️ Tecnologías Utilizadas
+
 Backend: Node.js con Express.js
+
 Base de datos: MongoDB
+
 Autenticación: JWT (JSON Web Tokens)
+
 Contenedorización: Docker
+
 📂 Estructura del Proyecto
-plaintext
-Copy code
+
 📦 adopcion-mascotas-backend
 ├── 📁 src
 │   ├── 📁 config          # Configuraciones y variables de entorno
@@ -37,13 +51,21 @@ Copy code
 ├── README.md              # Documentación del proyecto
 ├── package-lock.json      # Dependencias específicas del proyecto
 └── package.json           # Información y dependencias del proyecto
+
 🌟 Cómo Contribuir
+
 Realiza un fork de este repositorio.
+
 Crea una nueva rama para tu funcionalidad o corrección: git checkout -b feature/nueva-funcionalidad.
+
 Implementa tus cambios y asegúrate de que las pruebas se ejecuten correctamente.
+
 Realiza un commit de tus cambios: git commit -m "Agrega nueva funcionalidad".
+
 Sube tus cambios al repositorio remoto: git push origin feature/nueva-funcionalidad.
+
 Abre un Pull Request detallando tus modificaciones.
+
 🐕 Cómo Ejecutar el Proyecto Localmente
 
 Clona este repositorio:
